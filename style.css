@@ -1,0 +1,31 @@
+*, ::after::before{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+.title{
+      text-align: center;
+}
+.box{
+      width: 600px;
+      height: auto;
+      background: gainsboro;
+      margin: 0 auto;
+      padding: 10px;
+      border-radius: 25px;
+}
+.vrai, .faux{
+      height: 25px;
+      border-radius: 5px;
+      border: 1px solid white;
+}
+
+.juste{
+      color: green;
+      font-weight: bold;
+}
+.injuste{
+      color: red;
+      text-decoration: line-through;
+}
